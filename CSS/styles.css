@@ -84,3 +84,57 @@ margin-right: 3rem;
 .header__buttonSelected {
     border-bottom: 3px solid #43d9ad;
 }
+
+#middleContainer {
+    margin-top: 4rem;
+    height:calc(100vh - 7rem);
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#main__introduction{
+    
+    color:white;
+    display:flex;
+    flex-direction:column;
+}
+.main__introduction__left {
+    width:fit-content
+}
+
+.myName {
+    font-size:7rem;
+    padding:0;
+    margin:0;
+}
+.profession {
+    color: #314291;
+    font-size:3rem;
+    margin:0.1rem;
+    margin-bottom: 1rem;
+}
+.greeting {
+    font-size:2rem;
+}
+.introduction__comment {
+    color: #5a768f;
+    margin:0;
+    font-size:2rem;
+}
+
+.introduction__const {
+    color:#314291;
+    font-weight: bolder;
+}
+
+.introducion__codeLine {
+    font-size: 1.5rem;
+    margin:0;
+    margin-bottom:1rem;
+}
+
+.introduction__string {
+    color: #dc8c82;
+}
+
