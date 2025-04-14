@@ -53,11 +53,14 @@ header {
     width:12rem;
 }
 
-#header__description {
+#header__education {
     width:12rem;
 }
 
 #header__projects {
+    width:15rem;
+}
+#header__experience {
     width:15rem;
 }
 
