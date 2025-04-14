@@ -20,7 +20,20 @@ header {
     align-items: stretch;
     position:fixed;
     border-bottom: 1px solid #30363d;
+    margin-bottom:0;
 }
+
+.tabManager {
+    position:fixed;
+    margin-top: 0;
+    right:0;
+    margin-top:3.7rem;
+    border      : 1px solid #30363d;
+    height:3rem;
+    width: calc(100vw - 20.2rem);
+}
+
+
 .header__element{
     color: white;
     align-self: center;
@@ -138,3 +151,44 @@ margin-right: 3rem;
     color: #dc8c82;
 }
 
+.menu__introduction{
+    position:fixed;
+    left:0;
+    top:3.5rem;
+    width:20rem;
+    height: calc(100vh - 7rem);
+    border: 1px solid #30363d;
+    display:flex;
+    flex-direction: column;
+}
+
+.file {
+    display:flex;
+    width:100%;
+    margin-left:40px;
+    margin-top: 10px;
+    width:80%;
+    height:2rem;
+    flex-direction: row;
+    justify-content:baseline;
+    color:white;
+    align-items: center;
+}
+
+.file__image {
+    width:2rem;
+    height:2rem;
+    margin-right: 5px;
+}
+
+.folder {
+    margin-left:10px;
+    display:flex;
+    width:90%;
+    height:2rem;
+    flex-direction: row;
+    justify-content:flex-start;
+    color:white;
+    align-items: center;
+    margin-top: 10px;
+}

@@ -20,9 +20,8 @@ class introduction extends HTMLElement{
                 <p class="introduction__comment">//Mi Linkedin</p>
                 <p class="introducion__codeLine"><span class="introduction__const">Const</span> <span class= "introduction__string">linkedinLink = </span>
                     'https://www.linkedin.com/in/juan-david-caballero-fuentes-a89b6125b/'; </p>
-
-
             </div>
+
         
         `
     }
