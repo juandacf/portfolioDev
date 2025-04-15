@@ -41,7 +41,7 @@ class education extends HTMLElement{
                     </div>
 
                     <div class="education__left__container education__container__background">
-                        <h2 class="introduction__string education__container__background">[lenguajes]</h2>
+                        <h2 class="introduction__string education__container__background">[lenguas]</h2>
                         <div class="stack__container education__container__background">
                             <div class="education__container__background stack__item"><img class="education__container__background education__icon" src="./media/icons/united-kingdom.png" alt=""> inglés</div>
                             <div class="education__container__background stack__item"><img class="education__container__background education__icon" src="./media/icons/spain.png" alt=""> español</div>
