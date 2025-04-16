@@ -7,6 +7,7 @@ const folders = document.getElementsByClassName("folder");
 
 //  mainContainer.innerHTML= '<self-education> </self-education>';
 
+ //esconder los folders
 for(let folder of folders){
   folder.addEventListener("click", ()=>{
     const folderContainer = folder.id.toString();
@@ -61,6 +62,7 @@ for(let folder of folders){
 }
 
 
+//aplicar color verde al dar click
 for (let headerButton of headerButtons) {
   headerButton.addEventListener("click", () => {
 
