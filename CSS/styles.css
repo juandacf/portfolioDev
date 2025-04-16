@@ -211,11 +211,10 @@ margin-right: 3rem;
     display: flex;
     max-width: fit-content;
     flex-direction: column;
-    justify-content:space-evenly;
-    gap:1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    justify-content:center;
+    gap:1vh;
     border: 1px solid #30363d;
+
 }
 
 .education__left__container {
@@ -233,26 +232,52 @@ margin-right: 3rem;
 
 .education__container__textColor {
     color: #5a768f;
-    
+    margin:0;
+    font-size: 2vh;
 }
 
 .stack__container {
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 
 .stack__item{
-    font-size:1.7rem;
+    font-size:2vh;
     margin:0.5rem;
     display:flex;
-    height:3rem;
+    height:3vh;
     display:flex;
     justify-content: center;
     color:#5a768f;
+    font-weight: bold;
 }
 
 .education__icon{
     margin-right: 0.5rem;
 }
+
+.education__title{
+    font-size:  2.5vh;
+}
+
+.education__container{
+    color: #43d9ad;
+    margin:0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin:0;
+}
+
+.tab__name {
+    margin:0;
+    font-size: 1.5vh;
+    width:5vw;
+    height:5vh;
+    display: flex;
+    align-items: center;
+    border: 1px solid #30363d;
+    border-bottom:2px solid #43d9ad; ;
+}
+

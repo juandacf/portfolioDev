@@ -5,7 +5,7 @@ const headerButtons = document.getElementsByClassName("header__element");
 const mainContainer = document.querySelector('#middleContainer');
 const folders = document.getElementsByClassName("folder");
 
- mainContainer.innerHTML= '<self-education> </self-education>';
+//  mainContainer.innerHTML= '<self-education> </self-education>';
 
 for(let folder of folders){
   folder.addEventListener("click", ()=>{
