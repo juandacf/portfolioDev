@@ -6,7 +6,7 @@ const headerButtons = document.getElementsByClassName("header__element");
 const mainContainer = document.querySelector('#middleContainer');
 const folders = document.getElementsByClassName("folder");
 
- mainContainer.innerHTML= '<self-experience> </self-experience>';
+ mainContainer.innerHTML= '<self-education> </self-education>';
 
  //esconder los folders
 for(let folder of folders){

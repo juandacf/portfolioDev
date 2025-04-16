@@ -21,6 +21,7 @@ header {
     position:fixed;
     border-bottom: 1px solid #30363d;
     margin-bottom:0;
+    
 }
 
 .tabManager {
@@ -31,6 +32,8 @@ header {
     border      : 1px solid #30363d;
     height:3rem;
     width: calc(100vw - 20.2rem);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 
@@ -172,7 +175,7 @@ margin-right: 3rem;
     margin-left:40px;
     margin-top: 10px;
     width:80%;
-    height:2rem;
+    height:1.6rem;
     flex-direction: row;
     justify-content:baseline;
     color:white;
