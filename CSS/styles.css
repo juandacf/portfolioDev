@@ -206,22 +206,25 @@ margin-right: 3rem;
 }
 
 .education__part {
+    height: calc(100vh - 7rem);
     width:50%;
     display: flex;
+    max-width: fit-content;
     flex-direction: column;
     justify-content:space-evenly;
-    gap:2rem;
-    height: 100%;
+    gap:1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    border: 1px solid #30363d;
 }
 
 .education__left__container {
 
     display: flex;
     flex-direction: column;
-    padding:1rem;
+    padding:0.5rem;
     border: 1px solid #30363d;
+
 }
 
 .education__container__background{
@@ -230,6 +233,7 @@ margin-right: 3rem;
 
 .education__container__textColor {
     color: #5a768f;
+    
 }
 
 .stack__container {
@@ -240,7 +244,7 @@ margin-right: 3rem;
 }
 
 .stack__item{
-    font-size:2rem;
+    font-size:1.7rem;
     margin:0.5rem;
     display:flex;
     height:3rem;
