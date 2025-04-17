@@ -1,12 +1,13 @@
 import './components/introduction.js'
 import './components/education.js'
 import './components/experience.js'
+import './components/projects.js'
 
 const headerButtons = document.getElementsByClassName("header__element");
 const mainContainer = document.querySelector('#middleContainer');
 const folders = document.getElementsByClassName("folder");
 
-//  mainContainer.innerHTML= '<self-experience> </self-experience>';
+ mainContainer.innerHTML= '<self-projects> </self-education>';
 
  //esconder los folders
 for(let folder of folders){
