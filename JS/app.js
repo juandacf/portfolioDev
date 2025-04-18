@@ -7,7 +7,7 @@ const headerButtons = document.getElementsByClassName("header__element");
 const mainContainer = document.querySelector('#middleContainer');
 const folders = document.getElementsByClassName("folder");
 
- mainContainer.innerHTML= '<self-projects> </self-education>';
+mainContainer.innerHTML = '<self-introduction> </self-introduction>'
 
  //esconder los folders
 for(let folder of folders){
@@ -63,14 +63,42 @@ for(let folder of folders){
   })
 }
 
+const mainButtons = document.getElementsByClassName("header__link");
+for (const button of mainButtons){
+  button.addEventListener("click", ()=> {
+    const optionChosen = button.dataset.section;
+    for (let button of headerButtons){
+      button.classList.remove('header__buttonSelected');
+  }
+  console.log(headerButtons[0]);
+    switch(optionChosen){
+      case "[1]":
+        mainContainer.innerHTML = '<self-introduction> </self-introduction>';
+        headerButtons[1].classList.add('header__buttonSelected');   
+        break;
+      case "[2]":
+        mainContainer.innerHTML = '<self-education> </self-education>';
+        headerButtons[2].classList.add('header__buttonSelected');
+        break;
+      case "[3]":
+        mainContainer.innerHTML = '<self-experience> </self-experience>';
+        headerButtons[3].classList.add('header__buttonSelected');
+        break;
+      case "[4]":
+        mainContainer.innerHTML = '<self-projects> </self-projects>';
+        headerButtons[4].classList.add('header__buttonSelected');
+        break;
+    
+    }
+    
+  })
+}
 
-//aplicar color verde al dar click
+
 for (let headerButton of headerButtons) {
   headerButton.addEventListener("click", () => {
 
-    for (let button of headerButtons){
-        button.classList.remove('header__buttonSelected');
-    }
+
     const buttonID = document.getElementById (headerButton.id)
     buttonID.classList.add('header__buttonSelected');
   });

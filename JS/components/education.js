@@ -18,7 +18,7 @@ class education extends HTMLElement{
                 </div>
             </div>
 
-            <div class="education__container"> <p class="tab__name">Campus.txt</p>
+            <div class="education__container"> <p class="tab__name">campuslands.txt</p>
                 <div class="education__left__container education__container__background">
                     <h2 class="introduction__string education__container__background education__title">[Entrenamiento Integral en
                         Programación Backend]</h2>
