@@ -260,7 +260,6 @@ html,body {
         margin:0.5rem;
         display:flex;
         height:3vh;
-        display:flex;
         justify-content: center;
         color:#5a768f;
         font-weight: bold;
@@ -404,5 +403,54 @@ footer{
 .introduction__string{
     color:#dc8c82;
     font-weight:bold;
+}
+.education__Container{
+    padding: 0.5rem;
+    max-width: 90%;
+}
+
+.education__container__background{
+    background-color: #0d1117;
+}
+.tab__name{
+    margin:0;
+    font-size: 1rem;
+    width:fit-content;
+    height:1.8rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid #30363d;
+    border-top-left-radius: 10%;
+    border-bottom:2px solid #43d9ad; 
+    color:#43d9ad;
+}
+.education__left__container{
+    padding:0.5rem;
+    border: 1px solid #30363d;
+    width:90%;
+}
+.education__container__textColor{
+    color:#5a768f
+}
+
+.stack__container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.stack__item{
+    display:flex;
+    height:3rem;
+    color:#5a768f;
+    justify-content: center;
+    text-align: center;
+    line-height: 300%;;
+}
+.ducation__icon{
+    height:3rem;
+    width:3rem;
 }
 }
