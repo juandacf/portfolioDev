@@ -6,8 +6,41 @@ import './components/projects.js'
 const headerButtons = document.getElementsByClassName("header__element");
 const mainContainer = document.querySelector('#middleContainer');
 const folders = document.getElementsByClassName("folder");
+const menuButton = document.querySelector(".header__button");
+const menuItems = document.getElementsByClassName("header__element");
+const mediaQuery = window.matchMedia('(min-width: 1280px)');
+
+
 
 mainContainer.innerHTML = '<self-introduction> </self-introduction>'
+
+//validación para que el header se mantenga incluso después de usarse en móvil.
+
+menuButton.addEventListener("click", ()=>{
+  const menuItem = menuItems[1];
+  const menuItemStyle =  window.getComputedStyle(menuItem).display;
+  
+  if(menuItemStyle==="none" || menuItemStyle==="" ){
+    for(let menu of menuItems){
+      menu.style.display ="flex"
+    }
+  } else {
+    for(let menu of menuItems){
+      menu.style.display ="none"
+    }
+  }
+} )
+
+mediaQuery.addEventListener('change', handleResize);
+
+function handleResize(e) {
+  if (e.matches) {
+    for (let menu of menuItems) {
+      menu.style.display = ''; 
+    }
+  }
+}
+
 
  //esconder los folders
 for(let folder of folders){
@@ -95,11 +128,4 @@ for (const button of mainButtons){
 }
 
 
-for (let headerButton of headerButtons) {
-  headerButton.addEventListener("click", () => {
 
-
-    const buttonID = document.getElementById (headerButton.id)
-    buttonID.classList.add('header__buttonSelected');
-  });
-}
