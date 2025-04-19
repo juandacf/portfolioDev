@@ -89,7 +89,9 @@ html,body {
         justify-content: center;
         border-top: 1px solid #30363d;
     }
-    
+    #englishPage {
+        margin-left: 5rem;
+    }
     .footer__element {
     color:white;
     height:100%;
@@ -363,9 +365,10 @@ footer{
 
 .footer__element{
     display:flex;
-    flex-direction: row;
     align-items: center;
-    color:#43d9ad
+    color:#43d9ad;
+    
+    height: 2rem;
 }
 .footer__img {
     height:100%;
@@ -479,5 +482,8 @@ footer{
     display:flex;
     width:90%;
     flex-direction: column;
+}
+#englishPage {
+    margin-left: 2rem;
 }
 }
